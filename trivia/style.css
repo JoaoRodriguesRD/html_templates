@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:lightgray;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  #options button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  #options button:hover {
+    background-color: #ddd;
+  }
+  
+  #options button.correct {
+    background-color: green;
+    color: white;
+  }
+  
+  #options button.incorrect {
+    background-color: red;
+    color: white;
+  }
+  
+  #next-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  #next-btn:hover {
+    background-color: #bbb;
+  }
+  
+  #next-btn:disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+  }
+  
