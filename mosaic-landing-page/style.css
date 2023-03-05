@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid black; */
+}
+
+body {
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1003px;
+    margin: 3px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header {
+    background-color: #d6d6d6;
+    padding: 10px 2% 10px 2%;
+}
+
+.logo-1 {
+    width: 50%;
+    height: 70px;
+    margin-right: 30%;
+    background-position: center;
+    /* background-color: purple; */
+    background-image: url('https://www.strunkmedia.com/wp-content/uploads/2018/05/bigstock-Print-163213010.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo-2 {
+    width: 50%;
+    height: 70px;
+    margin-left: 30%;
+    background-position: center;
+    /* background-color: rgb(255, 20, 255); */
+    background-image: url('https://cdn.worldvectorlogo.com/logos/lorem-lorem.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 500px) {
+
+    .logo-1,
+    .logo-2 {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .container {
+        justify-content: space-evenly;
+    }
+    
+}
+
+section.cover-form {
+    width: 100%;
+    padding: 0 2%;
+}
+
+.container-form {
+    width: 100%;
+}
+
+.bg {
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1502/Thailand_Sunset-Windows_10_HD_Wallpaper_1366x768.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    float: right;
+    border-radius: 10px;
+    width: 400px;
+    margin-right: 40px;
+    background-color: white;
+    height: 102%;
+    top: -1%;
+    border: 1px solid black;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form h2 {
+    color: black;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: normal;
+    padding: 30px 15px;
+
+    padding: 15px;
+    font-size: 18px;
+    background-color: rgba(234, 236, 239, 0.7);
+}
+
+.form form {
+    margin-top: 8px;
+    padding: 25px;
+}
+
+.form form input[type=text] {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    line-height: 45px;
+    padding-left: 20px;
+}
+
+.form-wraper:not(:first-child) {
+    margin-top: 30px;
+}
+
+.form-wraper:last-child {
+    color: #6b6b6b;
+    margin-top: 40px;
+
+}
+
+.form-wraper button {
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    font-size: 24px;
+    background-color: rgb(38, 38, 153);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.form-wraper button:hover {
+    background-color: #000456;
+}
+@media screen and (max-width: 500px) {
+
+    .form{
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+}
+
+section.chamada {
+    width: 86.4%;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    align-self: center;
+    background-color: #ccc;
+}
+
+section.chamada h2 {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+section.chamada p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.container-mosaico {
+    width: 86.4%;
+    margin: 1% auto;
+    background-color: #ff8b3d;
+    color: white;
+}
+
+.flex-mosaico {
+    display: flex;
+}
+
+.item-1-mosaico {
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 300px;
+
+}
+
+.item-2-mosaico {
+    padding: 60px 40px;
+    width: 40%;
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .flex-mosaico {
+        display: block;
+    }
+
+    .item-1-mosaico {
+        width: 100%;
+        height: 400px;
+        padding-top: 100%;
+    }
+
+    .item-2-mosaico {
+        width: 100%;
+    }
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    color: #6b6b6b;
+}
+footer p{
+    margin-top: 8px;
+}
